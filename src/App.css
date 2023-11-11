@@ -1,38 +1,52 @@
+/* App.css */
+
 .App {
   text-align: center;
+  margin: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.h1 {
+  color: #353434;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Styling for the loading spinner */
+.text-center {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 200px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.App-link {
-  color: #61dafb;
+/* Styling for the Carousel captions */
+.carousel-caption {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgba(49, 46, 46, 0.5);
+  padding: 20px;
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Optional: Add styles for the Carousel indicators or controls if needed */
+.carousel-indicators {
+  bottom: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: auto;
+  bottom: 92px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ff00e6;
+
+  /* Customize control button styles as needed */
+}
+
+.carousel-item img {
+  border-radius: 70px;
 }
